@@ -32,6 +32,7 @@ Der Fokus liegt auf Eingabevalidierung, Kontrollstrukturen und sauberer Berechnu
 ## Projekt starten
 ```bash
 python kassenautomat_kino.py
+```
 
 ## Projekt ansehen
 [Code anzeigen](./kino_kassensystem.py)
