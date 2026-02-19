@@ -20,7 +20,7 @@ Simulation einer Kino-Kasse mit:
 - strukturierter Rechnungsausgabe
 
 ### Projekt ansehen
-[Kino-Kassensystem ansehen](https://github.com/chrissy-draht/Kassenautomat-im-Kino)
+[Kino-Kassensystem ansehen](./Kino-Kassensystem/)
 
 
 ---
