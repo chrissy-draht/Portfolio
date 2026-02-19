@@ -11,7 +11,7 @@ Der Fokus liegt auf Eingabevalidierung, Kontrollstrukturen und sauberer Berechnu
 - Zahlungsart (Bar oder Karte)
 - Berechnung von:
   - Ticketpreis
-  - Seniorenrabatt
+  - Rabatten
   - Mengenrabatt
   - Snack-Kosten
   - Kartengebühr
@@ -37,12 +37,10 @@ python kassenautomat_kino.py
 ## Projekt ansehen
 [Code anzeigen](./kino_kassensystem.py)
 
-## Lernziel
+### Lernziel
 Ziel dieses Projekts war es, grundlegende Python-Konzepte praktisch anzuwenden und typische Abläufe aus dem Alltag zu simulieren.
 
 ## Motivation
-Ich habe dieses Projekt entwickelt, um meine Kenntnisse in Python zu vertiefen und typische Geschäftsprozesse strukturiert umzusetzen. 
+Ich habe dieses Projekt entwickelt, um meine Kenntnisse in Python zu vertiefen und typische Geschäftsprozesse strukturiert umzusetzen.
 Der Fokus lag auf sauberer Eingabevalidierung, Fehlerbehandlung und nachvollziehbarer Programmlogik.
-Dieses Projekt bildet die Grundlage für weitere Anwendungen mit grafischer Oberfläche und Datenpersistenz.
-<img width="642" height="198" alt="image" src="https://github.com/user-attachments/assets/c7f2efd7-5b48-47d6-96c4-12adaede66ef" />
 
