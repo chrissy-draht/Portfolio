@@ -20,7 +20,7 @@ Simulation einer Kino-Kasse mit:
 - strukturierter Rechnungsausgabe
 
 ### Projekt ansehen
-[Kino-Kassensystem ansehen](./Kino-Kassensystem/)
+[Kino-Kassensystem ansehen](./kino_kassensystem/)
 
 
 ---
