@@ -1,5 +1,5 @@
 -- =========================================================
--- Chronologisches Script (bereinigt) aus deiner Session
+-- Chronologisches Script 
 -- Datenbank: chrissy
 -- =========================================================
 
@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS Abteilung (
     Name VARCHAR(50) NOT NULL
 );
 
--- 3) Mitarbeiter anlegen (in deiner Session final ohne AUTO_INCREMENT bei MitarbeiterID)
+-- 3) Mitarbeiter anlegen ohne AUTO_INCREMENT bei MitarbeiterID
 CREATE TABLE IF NOT EXISTS Mitarbeiter (
     MitarbeiterID INT PRIMARY KEY,
     Nachname VARCHAR(50),
@@ -65,7 +65,6 @@ FROM Mitarbeiter
 WHERE Gehalt BETWEEN 2000.00 AND 2500.00;
 
 -- 12) Mitarbeiter ohne MitarbeiterID einfügen
---     (In deiner Session wurde dadurch MitarbeiterID = 0 erzeugt, weil kein AUTO_INCREMENT aktiv war)
 INSERT INTO Mitarbeiter (Nachname, Vorname, Gehalt, AbteilungsID, Wohnort)
 VALUES ('Schusi', 'Schmitt', 4000.00, 2, 'Doduhausen');
 
@@ -112,7 +111,7 @@ WHERE Nachname IS NULL OR Nachname = '';
 -- 20) Wohnort wieder entfernen
 ALTER TABLE Mitarbeiter DROP COLUMN Wohnort;
 
--- 21) Foreign Key entfernen und Abteilungstabelle löschen (wie bei dir am Ende)
+-- 21) Foreign Key entfernen und Abteilungstabelle löschen
 ALTER TABLE Mitarbeiter DROP FOREIGN KEY fk_mitarbeiter_abteilung;
 DROP TABLE Abteilung;
 
