@@ -42,10 +42,12 @@ Eingabefehler werden abgefangen und führen zu einer Wiederholung der Eingabe.
 
 ## Projektstruktur
 
+```
 warenwirtschaft/
 │
-├── main.py     # Hauptprogramm
-└── b43.py      # Modul mit Eingabeprüfungen
+├── main.py      # Hauptprogramm
+└── b43.py       # Modul mit Eingabeprüfungen
+```
 
 ### main.py
 - Steuerung des Programms
