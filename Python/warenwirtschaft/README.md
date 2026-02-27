@@ -1,42 +1,42 @@
 # Warenwirtschaft – Rechnungsprogramm (Konsole)
 
-Dieses Projekt wurde im Rahmen meiner Umschulung zur Fachinformatikerin für Anwendungsentwicklung erstellt.
+Dieses Projekt entstand im Rahmen meiner Umschulung zur Fachinformatikerin für Anwendungsentwicklung.
 
-Ziel ist die Entwicklung eines konsolenbasierten Rechnungsprogramms mit strukturierter Programmierung und ausgelagerten Funktionen.
+Ziel war es, ein einfaches konsolenbasiertes Rechnungsprogramm zu entwickeln, das strukturiert aufgebaut ist und Funktionen in ein separates Modul auslagert.
 
 ---
 
 ## Projektbeschreibung
 
-Das Programm erstellt eine Rechnung auf Basis einer vorgegebenen Artikelliste.
+Das Programm erstellt eine Rechnung auf Grundlage einer festen Artikelliste.
 
 Der Benutzer kann:
 
 - Artikelnummern eingeben
-- Die gekaufte Menge angeben
+- Die gewünschte Menge angeben
 - Mehrere Positionen erfassen
 - Die Eingabe mit 0 beenden
 
-Das Programm berechnet:
+Nach Abschluss der Eingabe berechnet das Programm:
 
-- Netto-Gesamtsumme
-- Umsatzsteuer (19 %)
-- Bruttobetrag
-- Bruttobetrag zusätzlich in DM
+- die Netto-Gesamtsumme
+- die Umsatzsteuer (19 %)
+- den Bruttobetrag
+- zusätzlich die Umrechnung des Bruttobetrags in DM
 
-Eingabefehler werden abgefangen und führen zu einer Wiederholung der Eingabe.
+Fehleingaben werden geprüft und müssen bei Bedarf erneut eingegeben werden.
 
 ---
 
 ## Artikelliste
 
 | Artikelnummer | Artikel     | Netto-Preis (EUR) |
-|--------------|------------|------------------|
-| 17           | Bleistift  | 2.20             |
-| 22           | Ordner     | 24.50            |
-| 38           | USB-Stick  | 15.00            |
-| 47           | Maus       | 9.95             |
-| 125          | Tastatur   | 12.95            |
+|---------------|------------|-------------------|
+| 17            | Bleistift  | 2.20              |
+| 22            | Ordner     | 24.50             |
+| 38            | USB-Stick  | 15.00             |
+| 47            | Maus       | 9.95              |
+| 125           | Tastatur   | 12.95             |
 
 ---
 
@@ -45,18 +45,16 @@ Eingabefehler werden abgefangen und führen zu einer Wiederholung der Eingabe.
 ```
 warenwirtschaft/
 │
-├── main.py      # Hauptprogramm
-└── b43.py       # Modul mit Eingabeprüfungen
+├── main.py
+└── b43.py
 ```
 
-### main.py
-- Steuerung des Programms
-- Berechnung von Netto, USt und Brutto
-- Formatierte Ausgabe der Rechnung
+---
 
-### b43.py
-- Eingabe der Artikelnummer (mit Validierung)
-- Eingabe der Menge (mit Validierung)
+## Code-Dateien
+
+- [main.py](main.py) – enthält die Programmsteuerung und die Berechnungslogik  
+- [b43.py](b43.py) – enthält die Eingabevalidierung für Artikelnummer und Menge  
 
 ---
 
@@ -64,42 +62,45 @@ warenwirtschaft/
 
 Im Terminal in den Projektordner wechseln:
 
+```
 cd warenwirtschaft
 python main.py
+```
 
 ---
 
 ## Verwendete Konzepte
 
 - Funktionen
-- Modul-Import
-- Dictionaries
-- Schleifen (while)
-- Bedingungen (if / else)
-- Eingabevalidierung mit try/except
-- Formatierte Konsolenausgabe
+- Eigene Module (Import von Python-Dateien)
+- Dictionaries zur Speicherung der Artikeldaten
+- while-Schleifen
+- if / else-Bedingungen
+- try / except zur Fehlerbehandlung
+- Formatierung von Zahlen
 - Prozentrechnung
-- Währungsumrechnung (EUR → DM)
+- Umrechnung von Euro in DM
 
 ---
 
 ## Lernziele
 
-- Strukturierung von Programmen
-- Auslagerung von Funktionen in Module
-- Benutzerfreundliche Konsolenausgabe
-- Fehlerbehandlung
-- Umsetzung eines praxisnahen Rechnungsprogramms
+Mit diesem Projekt habe ich:
+
+- Programme strukturiert aufgebaut
+- Funktionen in separate Module ausgelagert
+- Benutzereingaben geprüft
+- Berechnungen korrekt umgesetzt
+- eine übersichtliche Konsolenausgabe gestaltet
 
 ---
 
 ## Erweiterungsmöglichkeiten
 
-- Automatische Rechnungsnummer
-- Datum einfügen
-- Speicherung der Rechnung als Datei
-- Variable Umsatzsteuersätze (z. B. 7 % / 19 %)
-- Erweiterung der Artikelliste
+- Automatische Vergabe einer Rechnungsnummer
+- Einfügen des aktuellen Datums
+- Speicherung der Rechnung als Textdatei
+- Erweiterbare Artikelliste
 - Umsetzung als grafische Benutzeroberfläche
 
 ---
