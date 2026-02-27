@@ -54,7 +54,7 @@ warenwirtschaft/
 ## Code-Dateien
 
 - [main.py](main.py) – enthält die Programmsteuerung und die Berechnungslogik  
-- [b43.py](b43.py) – enthält die Eingabevalidierung für Artikelnummer und Menge  
+- [b43.py](./b43.py) – enthält die Eingabevalidierung für Artikelnummer und Menge  
 
 ---
 

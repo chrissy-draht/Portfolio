@@ -88,7 +88,7 @@ Entwicklung einer strukturierten Konsolenanwendung in Python, die:
 
 Die vollständige Python-Datei befindet sich hier:
 
-[smart_calc_taschenrechner.py](smart_calc_taschenrechner.py)
+[samrt_calc_taschenrechner.py](samrt_calc_taschenrechner.py)
 
 ---
 
