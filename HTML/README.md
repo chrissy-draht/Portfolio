@@ -45,15 +45,15 @@ Besucher können Anfragen an das Support-Team senden und dabei verschiedene Form
 
 ## Projekt ansehen
 
-[Code anzeigen](./index.html)
+[Code anzeigen](./code_bunker.html)
 
-### Lernziel
+### Lernziel 
 
 Ziel dieses Projekts war es, grundlegende HTML-Formulare praktisch anzuwenden und verschiedene Eingabetypen kennenzulernen.
 
 Dabei wurde geübt, Benutzereingaben über unterschiedliche Formularelemente strukturiert zu erfassen und übersichtlich darzustellen.
 
-## Motivation
+## Motivation 
 
 Ich habe dieses Projekt entwickelt, um meine Kenntnisse im Bereich HTML zu vertiefen und den Umgang mit Formularen zu trainieren.
 
