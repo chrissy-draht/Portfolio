@@ -1,0 +1,231 @@
+/* Universalselektor */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Elementselektor */
+body {
+    background: linear-gradient(to bottom, #061826, #064e3b);
+    color: #1f2937;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #0f3d2e, #14532d);
+    color: white;
+    text-align: center;
+    padding: 4rem 1.5rem 3rem;
+    box-shadow: 0 10px 30px rgb(15, 23, 42);
+    border-bottom: 6px solid #d4af37;
+}
+
+/* ID-Selektor */
+#main-title {
+    color: #facc15;
+}
+
+/* Nachfahre-Selektor */
+header h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* Direkter Nachbarselektor */
+h1 + p {
+    color: #dbeafe;
+    font-size: 1.1rem;
+}
+
+/* Main */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+}
+
+/* Section */
+section {
+    background-color: #f8fafc;
+    padding: 2rem;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.45);
+    margin-bottom: 2rem;
+    border: 2px solid #d4af37;
+}
+
+/* Überschriften */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #064e3b;
+    border-left: #d4af37 solid 6px;
+    padding-left: 0.8rem;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Article */
+article {
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 6px solid #d4af37;
+    border: 1px solid #1d4ed8;
+}
+
+/* Klassen */
+.magie {
+    background: linear-gradient(to bottom right, #dbeafe, #93c5fd);
+}
+
+.gold {
+    background: linear-gradient(to bottom right, #fef3c7, #fde68a);
+}
+
+.wald {
+    background: linear-gradient(to bottom right, #dcfce7, #86efac);
+}
+
+.questliste {
+    background: linear-gradient(to bottom right, #f8fafc, #ecfdf5);
+}
+
+/* Kindselektor */
+article > h3 {
+    color: #0f2f66;
+    text-decoration: underline;
+}
+
+/* Nachfahre */
+article p {
+    margin-bottom: 0.8rem;
+}
+
+article strong {
+    color: #064e3b;
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #dbeafe;
+}
+
+thead {
+    background: linear-gradient(135deg, #0f2f66, #064e3b);
+    color: #facc15;
+}
+
+th {
+    text-align: left;
+    padding: 1rem;
+    font-size: 0.95rem;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid #bfdbfe;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecfdf5;
+}
+
+tbody tr:hover {
+    background-color: #facc15;
+    transition: 0.3s;
+}
+
+/* Liste */
+.questliste li {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #064e3b;
+    font-weight: 700;
+}
+
+/* Formular */
+form {
+    background: linear-gradient(to bottom right, #dbeafe, #ecfdf5);
+    padding: 1.5rem;
+    border-radius: 14px;
+    border-left: 6px solid #1d4ed8;
+}
+
+form p {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #064e3b;
+    font-weight: 700;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 2px solid #1d4ed8;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #d4af37;
+    box-shadow: 0 0 10px #d4af37;
+}
+
+button {
+    background: linear-gradient(135deg, #0f2f66, #064e3b);
+    color: #facc15;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #d4af37;
+    color: #061826;
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #0f2f66, #064e3b);
+    color: #facc15;
+    text-align: center;
+    padding: 2rem;
+    border-top: 6px solid #d4af37;
+    box-shadow: 0 -5px 20px rgba(15, 23, 42, 0.4);
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+    color: #dbeafe;
+}

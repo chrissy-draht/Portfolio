@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademie der Drei Reiche</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="main-title">Akademie der Drei Reiche</h1>
+        <p>Willkommen in der magischen Gilde für Runen, Alchemie und uralte Artefakte.</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Die Gilde</h2>
+
+            <article class="magie">
+                <h3>Reich der Magie</h3>
+                <p>Hier lernen junge Zauberer, wie man alte Runen liest und magische Portale öffnet.</p>
+                <p><strong>Farbe:</strong> Blau steht für Wissen, Energie und Zauberkraft.</p>
+            </article>
+
+            <article class="gold">
+                <h3>Reich der Artefakte</h3>
+                <p>In dieser Halle werden seltene Gegenstände gesammelt, geprüft und bewacht.</p>
+                <p><strong>Farbe:</strong> Gold steht für Macht, Wert und alte Legenden.</p>
+            </article>
+
+            <article class="wald">
+                <h3>Reich des Waldes</h3>
+                <p>Hier entstehen Tränke, Heilpflanzen und geheime alchemistische Mischungen.</p>
+                <p><strong>Farbe:</strong> Dunkelgrün steht für Natur, Ruhe und verborgene Kräfte.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Artefakt-Register</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Artefakt</th>
+                        <th>Herkunft</th>
+                        <th>Kraft</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Blauer Mondkristall</td>
+                        <td>Turm der Sterne</td>
+                        <td>Speichert Magie</td>
+                    </tr>
+
+                    <tr>
+                        <td>Goldene Phönixfeder</td>
+                        <td>Feuerberg</td>
+                        <td>Heilt Wunden</td>
+                    </tr>
+
+                    <tr>
+                        <td>Smaragd der Wächterin</td>
+                        <td>Alter Wald</td>
+                        <td>Schützt die Gilde</td>
+                    </tr>
+
+                    <tr>
+                        <td>Runenkompass</td>
+                        <td>Verlorene Bibliothek</td>
+                        <td>Findet geheime Wege</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="questliste">
+            <h2>Aktuelle Quests</h2>
+
+            <ul>
+                <li>Finde den verschwundenen Mondkristall</li>
+                <li>Entschlüssele die goldene Runentafel</li>
+                <li>Beschütze den dunklen Wald vor Schattenwesen</li>
+                <li>Bringe der Gilde eine neue Zauberformel</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Anmeldung zur Gilde</h2>
+
+            <form>
+                <p>
+                    <label for="name">Heldenname:</label>
+                    <input type="text" id="name" name="name">
+                </p>
+
+                <p>
+                    <label for="email">Magische E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="reich">Gewünschtes Reich:</label>
+                    <select id="reich" name="reich">
+                        <option>Reich der Magie</option>
+                        <option>Reich der Artefakte</option>
+                        <option>Reich des Waldes</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="nachricht">Deine Botschaft an den Rat:</label>
+                    <textarea id="nachricht" name="nachricht"></textarea>
+                </p>
+
+                <button type="submit">Der Gilde beitreten</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Akademie der Drei Reiche</p>
+        <p>Gegründet von Magiern, Alchemisten und Hütern alter Artefakte.</p>
+    </footer>
+
+</body>
+</html>
